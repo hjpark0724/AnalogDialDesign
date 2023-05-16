@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E2B6E6A2A135D190031568F /* AnalogDialDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B6E692A135D190031568F /* AnalogDialDesignApp.swift */; };
+		2E2B6E6C2A135D190031568F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B6E6B2A135D190031568F /* ContentView.swift */; };
+		2E2B6E6E2A135D190031568F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2B6E6D2A135D190031568F /* Assets.xcassets */; };
+		2E2B6E712A135D190031568F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2B6E702A135D190031568F /* Preview Assets.xcassets */; };
+		2E2B6E7B2A135D190031568F /* AnalogDialDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B6E7A2A135D190031568F /* AnalogDialDesignTests.swift */; };
+		2E2B6E852A135D190031568F /* AnalogDialDesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B6E842A135D190031568F /* AnalogDialDesignUITests.swift */; };
+		2E2B6E872A135D190031568F /* AnalogDialDesignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2B6E862A135D190031568F /* AnalogDialDesignUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E2B6E772A135D190031568F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E2B6E5E2A135D190031568F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E2B6E652A135D190031568F;
+			remoteInfo = AnalogDialDesign;
+		};
+		2E2B6E812A135D190031568F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E2B6E5E2A135D190031568F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E2B6E652A135D190031568F;
+			remoteInfo = AnalogDialDesign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E2B6E662A135D190031568F /* AnalogDialDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalogDialDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2B6E692A135D190031568F /* AnalogDialDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogDialDesignApp.swift; sourceTree = "<group>"; };
+		2E2B6E6B2A135D190031568F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E2B6E6D2A135D190031568F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E2B6E702A135D190031568F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E2B6E762A135D190031568F /* AnalogDialDesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalogDialDesignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2B6E7A2A135D190031568F /* AnalogDialDesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogDialDesignTests.swift; sourceTree = "<group>"; };
+		2E2B6E802A135D190031568F /* AnalogDialDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalogDialDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2B6E842A135D190031568F /* AnalogDialDesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogDialDesignUITests.swift; sourceTree = "<group>"; };
+		2E2B6E862A135D190031568F /* AnalogDialDesignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogDialDesignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E2B6E632A135D190031568F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2B6E732A135D190031568F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2B6E7D2A135D190031568F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E2B6E5D2A135D190031568F = {
+			isa = PBXGroup;
+			children = (
+				2E2B6E682A135D190031568F /* AnalogDialDesign */,
+				2E2B6E792A135D190031568F /* AnalogDialDesignTests */,
+				2E2B6E832A135D190031568F /* AnalogDialDesignUITests */,
+				2E2B6E672A135D190031568F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E2B6E672A135D190031568F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B6E662A135D190031568F /* AnalogDialDesign.app */,
+				2E2B6E762A135D190031568F /* AnalogDialDesignTests.xctest */,
+				2E2B6E802A135D190031568F /* AnalogDialDesignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E2B6E682A135D190031568F /* AnalogDialDesign */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B6E692A135D190031568F /* AnalogDialDesignApp.swift */,
+				2E2B6E6B2A135D190031568F /* ContentView.swift */,
+				2E2B6E6D2A135D190031568F /* Assets.xcassets */,
+				2E2B6E6F2A135D190031568F /* Preview Content */,
+			);
+			path = AnalogDialDesign;
+			sourceTree = "<group>";
+		};
+		2E2B6E6F2A135D190031568F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B6E702A135D190031568F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2E2B6E792A135D190031568F /* AnalogDialDesignTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B6E7A2A135D190031568F /* AnalogDialDesignTests.swift */,
+			);
+			path = AnalogDialDesignTests;
+			sourceTree = "<group>";
+		};
+		2E2B6E832A135D190031568F /* AnalogDialDesignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E2B6E842A135D190031568F /* AnalogDialDesignUITests.swift */,
+				2E2B6E862A135D190031568F /* AnalogDialDesignUITestsLaunchTests.swift */,
+			);
+			path = AnalogDialDesignUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E2B6E652A135D190031568F /* AnalogDialDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2B6E8A2A135D190031568F /* Build configuration list for PBXNativeTarget "AnalogDialDesign" */;
+			buildPhases = (
+				2E2B6E622A135D190031568F /* Sources */,
+				2E2B6E632A135D190031568F /* Frameworks */,
+				2E2B6E642A135D190031568F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnalogDialDesign;
+			productName = AnalogDialDesign;
+			productReference = 2E2B6E662A135D190031568F /* AnalogDialDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E2B6E752A135D190031568F /* AnalogDialDesignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2B6E8D2A135D190031568F /* Build configuration list for PBXNativeTarget "AnalogDialDesignTests" */;
+			buildPhases = (
+				2E2B6E722A135D190031568F /* Sources */,
+				2E2B6E732A135D190031568F /* Frameworks */,
+				2E2B6E742A135D190031568F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E2B6E782A135D190031568F /* PBXTargetDependency */,
+			);
+			name = AnalogDialDesignTests;
+			productName = AnalogDialDesignTests;
+			productReference = 2E2B6E762A135D190031568F /* AnalogDialDesignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E2B6E7F2A135D190031568F /* AnalogDialDesignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2B6E902A135D190031568F /* Build configuration list for PBXNativeTarget "AnalogDialDesignUITests" */;
+			buildPhases = (
+				2E2B6E7C2A135D190031568F /* Sources */,
+				2E2B6E7D2A135D190031568F /* Frameworks */,
+				2E2B6E7E2A135D190031568F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E2B6E822A135D190031568F /* PBXTargetDependency */,
+			);
+			name = AnalogDialDesignUITests;
+			productName = AnalogDialDesignUITests;
+			productReference = 2E2B6E802A135D190031568F /* AnalogDialDesignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E2B6E5E2A135D190031568F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2E2B6E652A135D190031568F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2E2B6E752A135D190031568F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2E2B6E652A135D190031568F;
+					};
+					2E2B6E7F2A135D190031568F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2E2B6E652A135D190031568F;
+					};
+				};
+			};
+			buildConfigurationList = 2E2B6E612A135D190031568F /* Build configuration list for PBXProject "AnalogDialDesign" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E2B6E5D2A135D190031568F;
+			productRefGroup = 2E2B6E672A135D190031568F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E2B6E652A135D190031568F /* AnalogDialDesign */,
+				2E2B6E752A135D190031568F /* AnalogDialDesignTests */,
+				2E2B6E7F2A135D190031568F /* AnalogDialDesignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E2B6E642A135D190031568F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2B6E712A135D190031568F /* Preview Assets.xcassets in Resources */,
+				2E2B6E6E2A135D190031568F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2B6E742A135D190031568F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2B6E7E2A135D190031568F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E2B6E622A135D190031568F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2B6E6C2A135D190031568F /* ContentView.swift in Sources */,
+				2E2B6E6A2A135D190031568F /* AnalogDialDesignApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2B6E722A135D190031568F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2B6E7B2A135D190031568F /* AnalogDialDesignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E2B6E7C2A135D190031568F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2B6E872A135D190031568F /* AnalogDialDesignUITestsLaunchTests.swift in Sources */,
+				2E2B6E852A135D190031568F /* AnalogDialDesignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E2B6E782A135D190031568F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E2B6E652A135D190031568F /* AnalogDialDesign */;
+			targetProxy = 2E2B6E772A135D190031568F /* PBXContainerItemProxy */;
+		};
+		2E2B6E822A135D190031568F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E2B6E652A135D190031568F /* AnalogDialDesign */;
+			targetProxy = 2E2B6E812A135D190031568F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E2B6E882A135D190031568F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E2B6E892A135D190031568F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E2B6E8B2A135D190031568F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnalogDialDesign/Preview Content\"";
+				DEVELOPMENT_TEAM = 65J4V6A9L5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.coldclouds.AnalogDialDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E2B6E8C2A135D190031568F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnalogDialDesign/Preview Content\"";
+				DEVELOPMENT_TEAM = 65J4V6A9L5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.coldclouds.AnalogDialDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E2B6E8E2A135D190031568F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65J4V6A9L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.coldclouds.AnalogDialDesignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnalogDialDesign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnalogDialDesign";
+			};
+			name = Debug;
+		};
+		2E2B6E8F2A135D190031568F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65J4V6A9L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.coldclouds.AnalogDialDesignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnalogDialDesign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnalogDialDesign";
+			};
+			name = Release;
+		};
+		2E2B6E912A135D190031568F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65J4V6A9L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.coldclouds.AnalogDialDesignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnalogDialDesign;
+			};
+			name = Debug;
+		};
+		2E2B6E922A135D190031568F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65J4V6A9L5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.coldclouds.AnalogDialDesignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnalogDialDesign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E2B6E612A135D190031568F /* Build configuration list for PBXProject "AnalogDialDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2B6E882A135D190031568F /* Debug */,
+				2E2B6E892A135D190031568F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2B6E8A2A135D190031568F /* Build configuration list for PBXNativeTarget "AnalogDialDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2B6E8B2A135D190031568F /* Debug */,
+				2E2B6E8C2A135D190031568F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2B6E8D2A135D190031568F /* Build configuration list for PBXNativeTarget "AnalogDialDesignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2B6E8E2A135D190031568F /* Debug */,
+				2E2B6E8F2A135D190031568F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2B6E902A135D190031568F /* Build configuration list for PBXNativeTarget "AnalogDialDesignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2B6E912A135D190031568F /* Debug */,
+				2E2B6E922A135D190031568F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E2B6E5E2A135D190031568F /* Project object */;
+}
