@@ -54,6 +54,7 @@
 		2E2B6E982A135DEE0031568F /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
 		2E2B6E992A135DEE0031568F /* DialPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialPlaceholder.swift; sourceTree = "<group>"; };
 		2E2B6E9A2A135DEE0031568F /* ScaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
+		2E2B6E9F2A135EA70031568F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		2E2B6E5D2A135D190031568F = {
 			isa = PBXGroup;
 			children = (
+				2E2B6E9F2A135EA70031568F /* README.md */,
 				2E2B6E682A135D190031568F /* AnalogDialDesign */,
 				2E2B6E792A135D190031568F /* AnalogDialDesignTests */,
 				2E2B6E832A135D190031568F /* AnalogDialDesignUITests */,
